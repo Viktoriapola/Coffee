@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+@import "reset.scss";
+@import "mixin.scss";
+
+body {
+  background-color: $bg_light_gray;
+}
+
+@import './header/header.scss';
+@import './coffee/coffee.scss';
+@import './chuan/chuan.scss';

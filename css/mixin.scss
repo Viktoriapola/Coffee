@@ -1,0 +1,36 @@
+$bg_light_gray: #f9fbff;
+$bg_primary: #415167;
+$accent_color: #c7a17a;
+$accent_color_2: #f9f5e8;
+$dark_gray: #edf0f5;
+
+@mixin button-style {
+  border: 0;
+  background-color: $accent_color;
+  color: $bg_light_gray;
+  margin-right: 29px;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 6px 24px 5px;
+  border-radius: 19px;
+  &:hover {
+    background-color: #b88d63;
+    transition: all linear .2s;
+  }
+}
+@mixin button-style_2 {
+  border: 0;
+  color: $bg_primary;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  background: none;
+  &:hover {
+    color: black;
+    transition: all linear .2s;
+  }
+}
+
